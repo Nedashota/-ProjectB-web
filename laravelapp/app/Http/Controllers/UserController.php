@@ -6,6 +6,6 @@ use Illuminate\Http\Request;
 class UserController extends Controller
 {
   public function func() {
-    return view('top');
+    return view('user/top');
   }
 }
