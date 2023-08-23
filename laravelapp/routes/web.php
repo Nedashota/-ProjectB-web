@@ -19,6 +19,8 @@ Route::get('/', function () {
 });
 Route::get('/user', [UserController::class, 'func']);
 
-Route::get('/user', [UserController::class, 'func']);
+Route::get('/top', [UserController::class, 'login']);
+
+Route::get('/register', [UserController::class, 'register']);
 
 
